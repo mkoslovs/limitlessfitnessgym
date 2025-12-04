@@ -1,0 +1,15 @@
+.skip-to-link {
+    background: #c2ddfe;
+    height: 20px;
+    left: 50%;
+    padding: 8px;
+    position: absolute;
+    transform: translateY(-160%);
+    transition: transform 0.3s;
+    text-decoration: none;
+    color: #160624;
+}
+
+.skip-to-link:focus {
+    transform: translateY(0%);
+}
